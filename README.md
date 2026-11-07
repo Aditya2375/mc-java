@@ -10,7 +10,7 @@ Every study does the same thing: compute the exact answer, simulate it, and fail
 
 Needs a JDK 11 or newer.
 
-    ./run_all.sh              # all studies, exits non-zero on any failure
+    sh run_all.sh             # all studies, exits non-zero on any failure
     java src/Birthday.java    # one study
 
 All runs use fixed seeds, so the output is identical every time (checked by running twice and comparing).
